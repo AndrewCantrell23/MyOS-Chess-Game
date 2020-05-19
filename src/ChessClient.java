@@ -14,6 +14,7 @@ public class ChessClient {
 
         Socket socket = new Socket(ip, ServerPort);
         System.out.println("Connected to the server");
+        //there's a new random comment here
 
         final DataInputStream in = new DataInputStream(socket.getInputStream());
         final DataOutputStream out = new DataOutputStream(socket.getOutputStream());
